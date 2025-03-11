@@ -1,11 +1,11 @@
-from Problems import MaxProfit
+from Problems import MaxProfit, MergeSortedArrays
 
 def main():
-    max_profit_calculator = MaxProfit()
-
-    prices = [7, 1, 5, 3, 6, 4]
-
-    result = max_profit_calculator.max_profit(prices)
-    print("Max Profit:", result)
+    merge_sorted_arrays = MergeSortedArrays()
+    nums1 = [1,2,3,0,0,0]
+    m = 3
+    nums2 = [2,5,6]
+    n = 3
+    merge_sorted_arrays.merge(nums1, m, nums2, n)
 
 main()
