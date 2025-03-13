@@ -4,3 +4,4 @@ from .country_roads import CountryRoads
 from .merge_sorted_arrays import MergeSortedArrays
 from .remove_elements import RemoveElements
 from .remove_duplicate_from_sorted_array import RemoveDuplicateFromSortedArray
+from .majority_element import MajorityElement

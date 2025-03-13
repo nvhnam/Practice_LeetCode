@@ -1,8 +1,8 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement
 
 def main():
-    removeDuplicate = RemoveDuplicateFromSortedArray()
-    nums = [0,0,1,1,1,1,2,3,3]
-    print(removeDuplicate.removeDuplicates2(nums))
+    majority = MajorityElement()
+    nums = [2,2,1,1,1,2,2]
+    print(majority.majorityElement(nums))
 
 main()
