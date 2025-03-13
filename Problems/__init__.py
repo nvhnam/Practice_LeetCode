@@ -6,3 +6,4 @@ from .remove_elements import RemoveElements
 from .remove_duplicate_from_sorted_array import RemoveDuplicateFromSortedArray
 from .majority_element import MajorityElement
 from .kids_with_candies import KidsWithCandies
+from .can_place_flowers import CanPlaceFlowers

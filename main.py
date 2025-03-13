@@ -1,9 +1,9 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers
 
 def main():
-    kidsCandies = KidsWithCandies()
-    candies = [4,2,1,1,2]
-    extraCandies = 1
-    print(kidsCandies.kidsWithCandies(candies, extraCandies))
+    placeFlower = CanPlaceFlowers()
+    flowerbed = [0,0,0,0,0]
+    n = 4
+    print(placeFlower.canPlaceFlowers(flowerbed, n))
 
 main()
