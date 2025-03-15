@@ -1,9 +1,8 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels
 
 def main():
-    placeFlower = CanPlaceFlowers()
-    flowerbed = [0,0,0,0,0]
-    n = 4
-    print(placeFlower.canPlaceFlowers(flowerbed, n))
+    reverse_vowel = ReverseVowels()
+    s = "IceCreAm"
+    print(reverse_vowel.reverse_vowels(s))
 
 main()
