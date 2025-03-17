@@ -9,3 +9,4 @@ from .kids_with_candies import KidsWithCandies
 from .can_place_flowers import CanPlaceFlowers
 from .reverse_vowels import ReverseVowels
 from .smallest_infinite_set import SmallestInfiniteSet
+from .asteroid_collision import AsteroidCollision

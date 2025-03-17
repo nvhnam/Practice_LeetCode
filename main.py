@@ -1,16 +1,8 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision
 
 def main():
-    smallestInfiniteSet = SmallestInfiniteSet()
-    print(smallestInfiniteSet)
-    smallestInfiniteSet.addBack(2);    
-    smallestInfiniteSet.popSmallest()
-    smallestInfiniteSet.popSmallest() 
-    smallestInfiniteSet.popSmallest() 
-    smallestInfiniteSet.addBack(1)  
-    smallestInfiniteSet.popSmallest()
-    smallestInfiniteSet.popSmallest() 
-    smallestInfiniteSet.popSmallest() 
-    print(smallestInfiniteSet)
+    asteroid_collision = AsteroidCollision()
+    asteroids = [10, 2, -5]
+    print(asteroid_collision.asteroidCollision(asteroids))
 
 main()
