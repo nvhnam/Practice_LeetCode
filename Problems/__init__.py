@@ -13,4 +13,4 @@ from .asteroid_collision import AsteroidCollision
 from .binary_gap import BinaryGap
 from .search_insert import SearchInsertPosition
 from .missing_number import MissingNumber
-from .count_tree_nodes import CountTreeNodes, TreeNode
+from .count_tree_nodes import CountTreeNodes, TreeNode, ValidateBinarySearchTree
