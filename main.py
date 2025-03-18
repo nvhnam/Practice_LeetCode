@@ -1,8 +1,8 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap
 
 def main():
-    asteroid_collision = AsteroidCollision()
-    asteroids = [10, 2, -5]
-    print(asteroid_collision.asteroidCollision(asteroids))
+    binaryGap = BinaryGap()
+    n = 22
+    print(binaryGap.binaryGap(n))
 
 main()
