@@ -12,3 +12,4 @@ from .smallest_infinite_set import SmallestInfiniteSet
 from .asteroid_collision import AsteroidCollision
 from .binary_gap import BinaryGap
 from .search_insert import SearchInsertPosition
+from .missing_number import MissingNumber
