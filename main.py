@@ -1,9 +1,16 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse, DesignHashmap
 
 def main():
-    diagonal_traverse = DiagonalTraverse()
-    mat = [[1,2,3],[4,5,6],[7,8,9]]
-    print(diagonal_traverse.findDiagonalOrder(mat))
+    myHashMap = DesignHashmap()
+    myHashMap.put(1, 1) 
+    myHashMap.put(2, 2)
+    myHashMap.get(1)
+    myHashMap.get(3)    
+    myHashMap.put(2, 1)
+    myHashMap.get(2)
+    print(myHashMap)
+    myHashMap.remove(2)
+    myHashMap.get(2)
 
 
 main()
