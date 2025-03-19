@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import List, Optional
 
 class TreeNode:
     def __init__(self, val):
@@ -58,3 +58,43 @@ class ValidateBinarySearchTree:
             and valid(node.right, node.val, right))
         
         return valid(root, float("-inf"), float("inf"))
+    
+
+class TreeNode2:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+class PathSum:
+    def hasPathSum(self, root: Optional[TreeNode2], targetSum: int) -> bool:
+        def cal_sum(cur_sum, node):
+            if not node:
+                return False
+            cur_sum += node.val
+            if not node.left and not node.right:
+                return cur_sum == targetSum
+            
+            return (cal_sum(cur_sum, node.left) or cal_sum(cur_sum, node.right))
+        
+        return cal_sum(0, root)
+    
+# class MinPathSum:
+#     def minPathSum(self, grid: List[List[int]]) -> int:
+#         row = len(grid)
+#         col = len(grid[0])
+
+#         cur_row = cur_col = 0
+#         cur_sum = 0
+
+#         going_right = True
+#         going_down = True
+
+#         if going_right:
+#             while cur_row >= 0 and cur_col < col:
+#                 cur_sum += grid[cur_row][cur_col]
+                
+#         for i in range(col):
+#             for j in range(row):
+#                 cur_sum += grid
+

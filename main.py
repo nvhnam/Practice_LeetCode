@@ -1,16 +1,9 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse, DesignHashmap, DesignHashSet
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse, DesignHashmap, DesignHashSet, PathSum, TreeNode2, AddingNegaBinaryNumber
 
 def main():
-    myHashSet = DesignHashSet()
-    myHashSet.add(1)
-    myHashSet.add(2)      
-    myHashSet.contains(1)
-    myHashSet.contains(3) 
-    myHashSet.add(2)      
-    myHashSet.contains(2) 
-    myHashSet.remove(2)   
-    myHashSet.contains(2) 
-    myHashSet.getRandom()
-    print(myHashSet)
+    addingNegaBinaryNumber = AddingNegaBinaryNumber()
+    arr1 = [0]
+    arr2 = [1, 1]
+    print(addingNegaBinaryNumber.addNegabinary(arr1, arr2)) 
 
 main()
