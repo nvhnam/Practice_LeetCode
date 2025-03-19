@@ -1,16 +1,16 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse, DesignHashmap
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse, DesignHashmap, DesignHashSet
 
 def main():
-    myHashMap = DesignHashmap()
-    myHashMap.put(1, 1) 
-    myHashMap.put(2, 2)
-    myHashMap.get(1)
-    myHashMap.get(3)    
-    myHashMap.put(2, 1)
-    myHashMap.get(2)
-    print(myHashMap)
-    myHashMap.remove(2)
-    myHashMap.get(2)
-
+    myHashSet = DesignHashSet()
+    myHashSet.add(1)
+    myHashSet.add(2)      
+    myHashSet.contains(1)
+    myHashSet.contains(3) 
+    myHashSet.add(2)      
+    myHashSet.contains(2) 
+    myHashSet.remove(2)   
+    myHashSet.contains(2) 
+    myHashSet.getRandom()
+    print(myHashSet)
 
 main()

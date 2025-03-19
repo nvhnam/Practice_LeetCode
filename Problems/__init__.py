@@ -15,4 +15,4 @@ from .search_insert import SearchInsertPosition
 from .missing_number import MissingNumber
 from .count_tree_nodes import CountTreeNodes, TreeNode, ValidateBinarySearchTree
 from .diagonal_traverse import DiagonalTraverse
-from .design_hashmap import DesignHashmap
+from .design_hashmap import DesignHashmap, DesignHashSet
