@@ -19,3 +19,4 @@ from .design_hashmap import DesignHashmap, DesignHashSet
 from .adding_negabinary_numbers import AddingNegaBinaryNumber
 from .add_two_numbers import AddTwoNumbers
 from .three_sum import ThreeSum, TwoSum
+from .lru_cache import LRUCache
