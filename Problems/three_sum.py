@@ -3,7 +3,30 @@ from typing import List, Optional
 
 class ThreeSum:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        pass
+        final = []
+        nums = sorted(nums)
+        print("nums: ", nums)
+        for i, a in enumerate(nums):
+            if i > 0 and a == nums[i - 1]:
+                continue
+            j = i + 1
+            k = len(nums) - 1
+            while j < k:
+                print("i: ", i)
+                print("j: ", j)
+                print("k: ", k)
+                sum = a + nums[j] + nums[k]
+                print("sum: ", sum)
+                if sum > 0:
+                    k -= 1
+                elif sum < 0:
+                    j += 1
+                else:
+                    final.append([a, nums[j], nums[k]])
+                    j += 1
+                    while nums[j] == nums[j-1] and j < k:
+                        j += 1
+        return final
 
 class TwoSum:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
