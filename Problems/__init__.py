@@ -26,3 +26,4 @@ from .most_common_word import MostCommmonWord
 from .populating_next_right_pointer import PopulatingNextRightPointer
 from .custom_sort_string import CustomSortString
 from .spiral_matrix import SpiralMatrix
+from .swapping_nodes_linkedlist import SwappingNodesLinkedList
