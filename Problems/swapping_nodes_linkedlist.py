@@ -18,5 +18,5 @@ class SwappingNodesLinkedList:
             right = right.next
         
         left.val, right.val = right.val, left.val
-
+ 
         return head
