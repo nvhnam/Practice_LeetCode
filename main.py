@@ -1,9 +1,9 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse, DesignHashmap, DesignHashSet, PathSum, TreeNode2, AddingNegaBinaryNumber, AddTwoNumbers, ThreeSum, TwoSum, LRUCache, QueueUsingStack, SubArraySumK, MostCommmonWord, PopulatingNextRightPointer, CustomSortString, SpiralMatrix, SwappingNodesLinkedList, ValidParentheses, ValidPalindromeII, ReverseWordsInString, KLargestInArray
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse, DesignHashmap, DesignHashSet, PathSum, TreeNode2, AddingNegaBinaryNumber, AddTwoNumbers, ThreeSum, TwoSum, LRUCache, QueueUsingStack, SubArraySumK, MostCommmonWord, PopulatingNextRightPointer, CustomSortString, SpiralMatrix, SwappingNodesLinkedList, ValidParentheses, ValidPalindromeII, ReverseWordsInString, KLargestInArray, DifferenceTwoArrays
 
 def main():
-    k_largest = KLargestInArray()
-    nums = [3,2,3,1,2,4,5,5,6]
-    k = 4
-    print(k_largest.findKthLargest(nums, k))
+    difference_two_arrays = DifferenceTwoArrays()
+    nums1 = [1,2,3,3]
+    nums2 = [1,1,2,2]
+    print(difference_two_arrays.findDifference(nums1, nums2))
 
 main()
