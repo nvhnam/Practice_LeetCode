@@ -32,3 +32,4 @@ from .valid_palindrome_II import ValidPalindromeII
 from .reverse_words_string import ReverseWordsInString
 from .kth_largest import KLargestInArray
 from .difference_two_arrays import DifferenceTwoArrays
+from .max_avg_subarray import MaxAvgSubArray

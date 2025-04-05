@@ -1,9 +1,9 @@
-from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse, DesignHashmap, DesignHashSet, PathSum, TreeNode2, AddingNegaBinaryNumber, AddTwoNumbers, ThreeSum, TwoSum, LRUCache, QueueUsingStack, SubArraySumK, MostCommmonWord, PopulatingNextRightPointer, CustomSortString, SpiralMatrix, SwappingNodesLinkedList, ValidParentheses, ValidPalindromeII, ReverseWordsInString, KLargestInArray, DifferenceTwoArrays
+from Problems import MaxProfit, MergeSortedArrays, RemoveElements, RemoveDuplicateFromSortedArray, MajorityElement, KidsWithCandies, CanPlaceFlowers, ReverseVowels, SmallestInfiniteSet, AsteroidCollision, BinaryGap, SearchInsertPosition, MissingNumber, CountTreeNodes, TreeNode, DiagonalTraverse, DesignHashmap, DesignHashSet, PathSum, TreeNode2, AddingNegaBinaryNumber, AddTwoNumbers, ThreeSum, TwoSum, LRUCache, QueueUsingStack, SubArraySumK, MostCommmonWord, PopulatingNextRightPointer, CustomSortString, SpiralMatrix, SwappingNodesLinkedList, ValidParentheses, ValidPalindromeII, ReverseWordsInString, KLargestInArray, DifferenceTwoArrays, MaxAvgSubArray
 
 def main():
-    difference_two_arrays = DifferenceTwoArrays()
-    nums1 = [1,2,3,3]
-    nums2 = [1,1,2,2]
-    print(difference_two_arrays.findDifference(nums1, nums2))
+    max_avg_subarray = MaxAvgSubArray()
+    nums = [1,12,-5,-6,50,3]
+    k = 4
+    print(max_avg_subarray.findMaxAverage(nums, k))
 
 main()
