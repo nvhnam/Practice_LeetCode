@@ -36,3 +36,4 @@ from .max_avg_subarray import MaxAvgSubArray
 from .unique_number_occur import UniqueNumberOccur
 from .max_depth_binary import MaxDepthBinary
 from .container_max_water import ContainerMaxWater
+from .n_tribonacy_num import NTribonaccyNum
