@@ -38,3 +38,4 @@ from .max_depth_binary import MaxDepthBinary
 from .container_max_water import ContainerMaxWater
 from .n_tribonacy_num import NTribonaccyNum
 from .removing_star_from_string import RemovingStarFromString
+from .increasing_triplet_subsequence import IncreasingTripletSubsequence
