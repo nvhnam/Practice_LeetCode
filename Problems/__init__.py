@@ -44,3 +44,4 @@ from .max_vowel_subtring import MaxVowelInSubString
 from .max_consecutive_one_III import MaxConsecutiveOneIII
 from .decode_string import DecodeString
 from .int_to_roman import IntToRoman
+from .roman_to_int import RomanToInt
