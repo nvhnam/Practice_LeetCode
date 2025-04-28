@@ -28,3 +28,18 @@ class TreeTraversal:
             return (left.val == right.val and dfs(left.left, right.right) 
                     and dfs(left.right, right.left))
         return dfs(root.left, root.right)
+
+    def minDepth(self, root: Optional[TreeNode]) -> int:
+        if not root:
+            return 0
+        self.min_depth = float("inf")
+        self.dfs(root, 0)
+        return self.min_depth
+
+    def dfs(self, root, cur_depth):
+        if not root: 
+            return
+        if not root.left and not root.right:
+            self.min_depth = min(self.min_depth, cur_depth + 1)
+        self.dfs(root.left, cur_depth + 1)
+        self.dfs(root.right, cur_depth + 1) 
