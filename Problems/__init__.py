@@ -45,4 +45,4 @@ from .max_consecutive_one_III import MaxConsecutiveOneIII
 from .decode_string import DecodeString
 from .int_to_roman import IntToRoman
 from .roman_to_int import RomanToInt
-from .tree_traversal import TreeTraversal
+from .tree_traversal import TreeTraversal, TreeNode
