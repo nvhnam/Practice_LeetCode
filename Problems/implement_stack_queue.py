@@ -1,6 +1,5 @@
 from collections import deque
 
-
 class ImplementStackQueue:
     def __init__(self):
         self.q1 = deque()
